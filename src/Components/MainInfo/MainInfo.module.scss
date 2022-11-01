@@ -1,0 +1,21 @@
+.container{
+    height: 100%;
+    // overflow: scroll;
+    .section1{
+        width: 100%;
+        height: 400px;
+        background-color: red;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/2018_BMW_6er_Gran_Coupe_M_Sport%2C_F06.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .section2{
+        width: 100%;
+        height: 400px;
+        background-image: url("https://autoportal.com/img/new-cars-gallery/bmw/6-series/exterior/fd1d620/bmw-6-series-fd1d620-1600x1200.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        border-top: 30px solid white;
+    }
+}
+
