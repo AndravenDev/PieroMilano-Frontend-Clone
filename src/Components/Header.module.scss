@@ -1,0 +1,36 @@
+.container {
+    background-color: white;
+    height: 160px;
+    color: #C5AB7D;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .icons, .logoWrapper, .login {
+        align-self: center;
+    }
+
+    .icons {
+        padding-left: 40px;
+        svg{
+            margin-right: 40px;
+        }
+    }
+    .logoWrapper {
+        text-align: center;
+
+        .logo{
+            font-size: 40px;
+        }
+
+        .title {
+            letter-spacing: 20px;
+        }
+    }
+    .login{
+        justify-self: end;
+        padding-right: 40px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
